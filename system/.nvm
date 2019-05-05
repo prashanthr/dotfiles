@@ -1,4 +1,4 @@
-NVM_DIR=~/.nvm
+NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"
 
 if [ -f "$NVM_DIR/nvm.sh" ]; then
   export NVM_DIR
