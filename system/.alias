@@ -1,21 +1,21 @@
 # Shortcuts
 
 # General Commands
-
 alias reload="source ~/.bash_profile"
 alias __="sudo"
 alias quit="exit
 alias ciao="exit
 
 # Navigation
-
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 
 # List
-
 alias ll="ls -lahAFG"
+
+# Shortcuts
+alias copy-ssh='pbcopy < ~/.ssh/id_rsa.pub'
 
 # Process Management
 alias killnode='killall -9 node'
