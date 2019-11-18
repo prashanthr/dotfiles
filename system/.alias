@@ -22,9 +22,10 @@ alias killnode='killall -9 node'
 
 # Kubernetes
 alias kpodlogs='kubectl logs $1'
-alias kpodkill='kubectl kill pod $1'
-alias kpods='kubectl get pods'
+alias kpodkill='kubectl delete pod $1'
+alias kpodlist='kubectl get pods'
 alias kpodwatch='kubectl get pods --watch'
-alias kdkill='kubectl kill deployment $1'
+alias kdlist='kubectl get deployments'
+alias kdkill='kubectl delete  deployment $1'
 alias kapply='kubectl apply -f $1'
 alias mkubeserv='minikube service $1'
